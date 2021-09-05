@@ -1,4 +1,4 @@
-import 'package:mvvm_flutter_app/models/movie.dart';
+import 'package:mvvm_flutter_app/models/data_models/movie.dart';
 
 class MovieViewModel {
 

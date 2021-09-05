@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:http/http.dart' as http;
-import 'package:mvvm_flutter_app/models/movie.dart';
+import 'package:mvvm_flutter_app/models/data_models/movie.dart';
 
 class WebService {
   Future<List<Movie>> fetchMovies(String keyword) async {
